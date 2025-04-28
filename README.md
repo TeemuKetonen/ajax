@@ -1,7 +1,8 @@
 # Finnkino Näytökset
 
 ## Demo link:
-Pääset sivustolle avaamalla `index.html` tiedoston selaimessa.
+
+-
 
 ---
 
