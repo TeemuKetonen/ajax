@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnkino Elokuvat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="container"> <!-- laatikko -->
+        <h1>Missä haluaisit katsoa elokuvan?</h1>
+
+<!-- Teatterin valinta -->
+        <div class="theater-selection">
+            <label for="theater-select">Valitse teatteri:</label>
+            <select id="theater-select">
+                <option value="">-- Valitse teatteri --</option>
+                <option value="1002">Helsinki</option>
+                <option value="1031">Helsinki: Kinopalatsi</option>
+                <option value="1032">Helsinki: Maxim</option>
+                <option value="1033">Helsinki: Tennispalatsi</option>
+                <option value="1012">Espoo</option>
+                <option value="1039">Espoo: Omena</option>
+                <option value="1038">Espoo: Sello</option>
+                <option value="1013">Vantaa: Flamingo</option>
+                <option value="1014">Pääkaupunkiseutu</option>
+            </select>
+        </div>
+
+        <div id="movies-container" class="movies-container">
+           
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
